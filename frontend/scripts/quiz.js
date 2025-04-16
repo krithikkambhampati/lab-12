@@ -133,5 +133,6 @@ resetBtn.addEventListener("click", () => {
 
 window.addEventListener("DOMContentLoaded", async () => {
   await loadHighScore();
-  loadQuestion();
+  await loadQuestion();
+  updateAttempts();
 });

@@ -1,4 +1,5 @@
-
+const baseURL = "http://localhost:8000";
+window.addEventListener("DOMContentLoaded", () => {
 async function loadUsers() {
   const res = await fetch(`/users`);
   const users = await res.json();
@@ -40,7 +41,7 @@ document.getElementById("search").addEventListener("input", async (e) => {
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
     deleteBtn.onclick = async () => {
-      await fetch(`/users/${user._id}`, { method: "PATCH" });
+      await fetch(`/users/${user._id}`, { method: "DELETE" });
       loadUsers();
     };
 
@@ -61,5 +62,7 @@ document.getElementById("userForm").addEventListener("submit", async (e) => {
     body: JSON.stringify({ username, bio })
   });
   e.target.reset();
-  loadUsers();
+  
+});
+loadUsers();
 });

@@ -65,4 +65,19 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
 }
 
 
-loadNews();
+document.addEventListener('DOMContentLoaded', () => {
+ 
+  loadNews();
+  
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', () => {
+    const source = document.getElementById('source').value;
+    loadNews(searchInput.value, source, false);
+  });
+  
+  const sourceSelect = document.getElementById('source');
+  sourceSelect.addEventListener('change', () => {
+    const searchTerm = document.getElementById('search').value;
+    loadNews(searchTerm, sourceSelect.value, true);
+  });
+});
