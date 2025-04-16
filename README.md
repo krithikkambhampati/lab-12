@@ -26,37 +26,40 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Krithik-2024101086(i commited many erros with one commit only)
+Panindra-2024101068
+Kaundinya-2024101021
+Nikhith-2024117002
 
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
-| 23  |                                          |               |              |
-| 24  |                                          |               |              |
-| 25  |                                          |               |              |
+| 1   | Style.css is not filled                  |         Narain |     Whole Team     Obsidian
+| 2   |int changed to str in models.py           |krithik         |krithik         |
+| 3   |names to name and usernames to username in analytics.py     |       krithik        |   krithik           |
+| 4   |            fixed delete in items.py                              |      krithik        |        krithik      |
+| 5   |     removed duplicate post in items.py  |          krithik     |     krithik         |
+| 6   |quiz.py giveing alway 2nd question made it give random question |    krithik           |       krithik       |
+| 7   |in quiz.py made the answer to post                 |       krithik        |      krithik        |
+| 8   |   made users to get in users.py         |       krithik        |    krithik          |
+| 9    changed deleted all to deletd one in users.py and gave it the arguments         |         krithik      |     krithik         |
+| 10  |IN ITEMS.PY made router = APIRouter()                   |         phanindra      |        phanindra      |
+| 11  |added user in main.py                                          | phanindra              | phanindra             |
+| 12  |added event listener in new.js for search bar                         |          Kaundinya     |     Kaundinya         |
+| 13  |made questions random in quiz.py                                |     Kaundinya          |    Kaundinya          |
+| 14  |added event listener in profile.js                   |         Kaundinya      |      Kaundinya        |
+| 15  |in index.html, changed charset to UTF-8                        |   kKaundinya            |        Kaundinya      |
+| 16  |added content to empty home.js                     |          Kaundinya     |       Kaundinya       |
+| 17  | change  port from 8001 to 8000 in analytics.js                   |       Kaundinya        |     Kaundinya         |
+| 18  | in quiz.py changed get to post      |        phanindra       |     phanindra         |
+| 19  |added the task bar in the analytics.html         |       Nikhith        |     Nikhith         |
+| 20  |added all the required html in other htmls               |     Nikhith          |     Nikhith         |
+| 21  |changed the patch to delete                                    |     Nikhith          |     nikhith         |
+| 22  |added container in items.html                                       |   Nikhith            |   Nikhith           |
+| 23  |changed the boiler plate of index.html            |       Nikhith        |       Nikhith       |
+| 24  |updated the profile.html and profile.js                                       |       phanindra        |       phanindra       |
+| 25  |changes the context type into application.json                                    |      Nikhith        |       Nikhith       |
 | 26  |                                          |               |              |
 | 27  |                                          |               |              |
 | 28  |                                          |               |              |
