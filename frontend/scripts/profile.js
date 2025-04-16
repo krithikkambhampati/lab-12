@@ -1,5 +1,5 @@
 const baseURL = "http://localhost:8000";
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("DOMContentLoaded", () => {const baseURL = "http://localhost:8000";
 async function loadUsers() {
   const res = await fetch(`/users`);
   const users = await res.json();
@@ -41,7 +41,7 @@ document.getElementById("search").addEventListener("input", async (e) => {
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
     deleteBtn.onclick = async () => {
-      await fetch(`/users/${user._id}`, { method: "DELETE" });
+      await fetch(`/users/${user._id}`, { method: "PATCH" });
       loadUsers();
     };
 
