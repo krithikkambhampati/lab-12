@@ -1,24 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="ISO-8859-1" />
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <!-- Excited for the new Mission Impossible movie ? -->
-    <a href="index.html">Home</a>
-    <a href="items.html">Items</a>
-    <a href="profile.html">Profile</a>
-    <a href="analytics.html">Analytics</a>
-    <a href="news.html">News</a>
-  </nav>
-  <div class="container">
-    <h1>🏠 Home</h1>
-    <p>Welcome to the Multi-Page FastAPI App!</p>
-    <p>This app uses FastAPI for the backend, MongoDB for data, and HTML/CSS/JS for the frontend.</p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Multi-Page FastAPI App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+      <a href="items.html"><i class="fas fa-box"></i> Items</a>
+      <a href="profile.html"><i class="fas fa-user"></i> Profile</a>
+      <a href="analytics.html"><i class="fas fa-chart-line"></i> Analytics</a>
+      <a href="news.html"><i class="fas fa-newspaper"></i> News</a>
+    </nav>
+    
+    <div class="container">
+      <h1>🏠 Home</h1>
+      <p>Welcome to the Multi-Page FastAPI App! This modern application demonstrates how to build robust web applications with powerful technologies.</p>
+      
+      <div class="features">
+        <div class="feature-box">
+          <i class="fas fa-server"></i>
+          <h3>FastAPI Backend</h3>
+          <p>Built with FastAPI, a modern Python framework for building APIs with exceptional performance and minimal code.</p>
+        </div>
+        
+        <div class="feature-box">
+          <i class="fas fa-database"></i>
+          <h3>MongoDB Database</h3>
+          <p>Utilizing MongoDB for flexible, scalable data storage with document-oriented architecture.</p>
+        </div>
+        
+        <div class="feature-box">
+          <i class="fas fa-code"></i>
+          <h3>Modern Frontend</h3>
+          <p>Clean and responsive UI built with HTML5, CSS3, and JavaScript for an excellent user experience.</p>
+        </div>
+      </div>
+      
+      <a href="items.html" class="cta-button">Explore Items <i class="fas fa-arrow-right"></i></a>
+    </div>
+    
+    <footer>
+      &copy; 2025 Multi-Page FastAPI App | All Rights Reserved
+    </footer>
+  </body>
 </html>
