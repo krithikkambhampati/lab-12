@@ -2,7 +2,7 @@ from fastapi import APIRouter
 import random
 
 router = APIRouter(tags=["quiz"])
-app.include_router(router, prefix="/quiz")
+router.include_router(router, prefix="/quiz")
 
 
 # I actually could have added this to a collection in mongodb
