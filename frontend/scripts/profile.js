@@ -1,4 +1,5 @@
-
+const baseURL = "http://localhost:8000";
+window.addEventListener("DOMContentLoaded", () => {const baseURL = "http://localhost:8000";
 async function loadUsers() {
   const res = await fetch(`/users`);
   const users = await res.json();
@@ -61,5 +62,7 @@ document.getElementById("userForm").addEventListener("submit", async (e) => {
     body: JSON.stringify({ username, bio })
   });
   e.target.reset();
-  loadUsers();
+  
+});
+loadUsers();
 });
